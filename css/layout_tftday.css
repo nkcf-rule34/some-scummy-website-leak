@@ -1,0 +1,1272 @@
+@charset "utf-8";
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 120%;
+    padding-right: 0 !important;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.mainBlue {
+    background-color: #002b38;
+    background-image: url(../images/bigGradientBg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.headerLogo {
+    max-width: 311px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.darkStripe {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 1.6em;
+    color: rgba(255, 255, 255, 1.00);
+    line-height: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    min-height: 150px;
+}
+
+.darkStripe .accountPriceWrap>div {
+    margin-bottom: 0px;
+}
+
+.darkStripeAccounts {
+    line-height: 50px;
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px rgba(83, 177, 207, 0.75);
+    margin-right: 20px;
+}
+
+@media (min-width: 1281px) {
+    .darkStripeAccounts {
+        min-width: 400px;
+    }
+}
+
+.whiteSection {}
+
+.greySection {
+    background-color: #eeeeee;
+}
+
+.videoWrap {
+    border-radius: 4px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.formGreenHeader {
+    background-color: #95c11f;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1em;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.formGreenHeader:after {
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    display: block;
+    left: 0px;
+    bottom: -25px;
+    background-image: url(../images/greenArrowBg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    content: "";
+}
+
+.accountPriceWrap {
+    font-size: 1.75rem;
+    color: rgba(255, 255, 255, 1.00);
+    line-height: 1.2em;
+}
+
+@media (max-width:767px) {
+    .mainBlue .accountPriceWrap {
+        padding: 10px 0 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .mainBlue .accountPriceWrap {
+        padding: 20px 100px 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .mainBlue .accountPriceWrap {
+        padding: 100px 30px 0;
+    }
+    .mainBlue .accountPriceWrap.second {
+        padding: 0px 30px 0;
+        margin-top: 20px;
+    }
+}
+
+.accountPriceWrap>strong {
+    color: #95c11f;
+}
+
+.accountPriceWrap>em {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.accountPriceWrap>em:after {
+    display: block;
+    position: absolute;
+    top: calc(50% - 1px);
+    width: 100%;
+    height: 2px;
+    content: "";
+    background: #e30613;
+    transform: rotate(-5deg);
+}
+
+.accountPriceWrap>div {
+    border-radius: 4px;
+    background-color: transparent;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+.accountPriceWrap p {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.4em;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:479px) {
+    .mainBlue .accountPriceWrap p {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .footerBlue .accountPriceWrap p {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:480px) {
+    .mainBlue .accountPriceWrap p {
+        /* padding-left: 30px;
+        padding-right: 30px; */
+        /* margin-top: 15px; */
+    }
+    .footerBlue .accountPriceWrap p {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:479px) {
+    .formWrap .form-control {
+        height: 50px;
+        text-align: center;
+        color: #686868;
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width:480px) {
+    .formWrap .form-control {
+        height: 70px;
+        text-align: center;
+        color: #686868;
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width:479px) {
+    .formWrap .btn.btn-default {
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        height: 50px;
+        background-color: #95c11f;
+        -webkit-box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
+        box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
+        border-width: 0px;
+        border-style: none;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+        white-space: normal;
+        line-height: 1.1em;
+    }
+    .formWrap .btn.btn-default:before {
+        width: 0;
+        height: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-style: solid;
+        border-width: 25px 0 25px 15px;
+        border-color: transparent transparent transparent #ffec15;
+    }
+    .formWrap .btn.btn-default:after {
+        width: 0;
+        height: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-style: solid;
+        border-width: 25px 15px 25px 0;
+        border-color: transparent #ffec15 transparent transparent;
+    }
+}
+
+@media (min-width:480px) {
+    .formWrap .btn.btn-default {
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        height: 70px;
+        background-color: #95c11f;
+        -webkit-box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
+        box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
+        border-width: 0px;
+        border-style: none;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+        white-space: normal;
+        line-height: 1.1em;
+    }
+    .formWrap .btn.btn-default:before {
+        width: 0;
+        height: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-style: solid;
+        border-width: 35px 0 35px 20px;
+        border-color: transparent transparent transparent #ffec15;
+    }
+    .formWrap .btn.btn-default:after {
+        width: 0;
+        height: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-style: solid;
+        border-width: 35px 20px 35px 0;
+        border-color: transparent #ffec15 transparent transparent;
+    }
+}
+
+.formWrap .btn.btn-default:hover {
+    background-color: #A4D02C;
+}
+
+.formWrap .btn.btn-default:active {
+    background-color: #89B414;
+}
+
+.founderPortrait {
+    position: relative;
+    text-align: right;
+}
+
+.founderPortraitImg {
+    display: inline-block;
+}
+
+.founderSignature {
+    position: absolute;
+    right: -110px;
+    float: none;
+    bottom: -50px;
+    max-width: 133px;
+    height: auto;
+}
+
+body h1 {
+    color: #95c11f;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+body h2 {
+    color: #5e5e5e;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+body h2 .glyphicon {
+    color: #95c11f;
+    margin-right: 15px;
+    position: relative;
+    top: 3px;
+}
+
+body h3 {
+    color: #686868;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+p {
+    color: #686868;
+}
+
+a {
+    text-decoration: underline;
+    color: rgba(35, 176, 255, 1.00);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.whiteCard {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: rgba(255, 255, 255, 1.00);
+}
+
+.appFeatures {
+    margin-top: 30px;
+}
+
+.appFeatures h3 {
+    margin-bottom: 15px;
+}
+
+.appFeatures p {
+    margin-bottom: 0px;
+}
+
+.appFeatures .glyphicon {
+    color: #0084b5;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.faqWrap {
+    margin-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.faqWrap h3 {
+    margin-bottom: 10px;
+}
+
+.faqWrap p {
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.faqWrap p:after {
+    width: 60px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    content: "";
+    background-color: #5e5e5e;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.faqWrap p:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.faqWrap p:last-child:after {
+    display: none;
+}
+
+.footerBlue {
+    background-color: #002b38;
+    background-image: url(../images/bigGradientBg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+}
+
+.footerBlue .accountPriceWrap {
+    max-width: 456px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerBlue .formGreenHeader {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #686868;
+    font-size: 0.75em;
+}
+
+footer .container:last-child {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #dddddd;
+}
+
+footer .container .row .col-md-6:last-child span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width:767px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+    .row .img-responsive.headerLogo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row div .founderPortrait .img-responsive.founderSignature {
+        left: auto;
+        right: -140px;
+        bottom: 140px;
+    }
+    .row div .founderPortrait .img-responsive.founderPortraitImg {
+        margin-bottom: 40px;
+    }
+    .row div .glyphicon {
+        margin-top: 30px;
+    }
+    .row div:first-child .glyphicon {
+        margin-top: 0px;
+    }
+    section .container .faqWrap.text-center {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    section.mainBlue .darkStripe {
+        height: auto;
+        text-align: center;
+        line-height: 1em;
+    }
+    section.mainBlue .darkStripeAccounts {
+        float: none;
+        display: block;
+        width: 100%;
+        line-height: 1em;
+    }
+    section.mainBlue .darkStripe .img-responsive.center-block {
+        margin-top: 20px;
+    }
+    footer .container .row .col-md-6 {
+        text-align: center;
+    }
+    footer .container .row .col-md-6:last-child {
+        padding-top: 10px;
+    }
+    body section h2 .glyphicon {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        top: 0px;
+    }
+    .row div .stepWrap {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .row .col-lg-4:last-child .stepWrap {
+        margin-bottom: 40px;
+    }
+    .stepsSection .row .col-lg-4:last-child .stepWrap {
+        margin-bottom: 0px;
+    }
+    .stepWrap .stepNumber {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .row div .logoText {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: -10px;
+    }
+    .row div .formWrapSubpage .form-group input.form-control {
+        height: 35px;
+    }
+}
+
+@media (max-width:1199px) {
+    .img-responsive.headerLogo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mainBlue .darkStripe {
+        font-size: 1.2em;
+    }
+    .founderPortrait .img-responsive.founderSignature {
+        right: auto;
+        bottom: -110px;
+        left: 50px;
+    }
+    .container .faqWrap {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .row div .whiteCard {
+        margin-bottom: 20px;
+    }
+    .row div:last-child .whiteCard {
+        margin-bottom: 0px;
+    }
+    .row .col-lg-4 .stepWrap {
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .successfulTrader .traderDetails .row div:last-child {
+        padding-top: 20px;
+        border-left-width: 0px;
+        border-left-style: none;
+        border-top: 1px solid #eeeeee;
+        margin-top: 20px;
+    }
+    .successfulTrader .traderDetails {
+        height: auto;
+    }
+    .fixedFormWrap {
+        display: none;
+    }
+    .mainBlueSecondary .btn.btn-default.accountCheck {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .mainBlueSecondary .row>div:first-child .accountCheck {
+        margin-bottom: -10px;
+    }
+    .mainBlueSecondary .row>div:last-child .accountCheck {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width:479px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+    .row div .formGreenHeader {
+        margin-bottom: 40px;
+    }
+    .accountPriceWrap form .btn.btn-default {
+        white-space: normal;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 1.1em;
+    }
+    section div .img-responsive.headerLogo {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row .col-lg-4.col-lg-offset-1.col-md-4.col-sm-8 .founderPortrait {
+        text-align: center;
+    }
+    .col-lg-4.col-lg-offset-1.col-md-4.col-sm-8 .founderPortrait .img-responsive.founderSignature {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -40px;
+        margin-bottom: 30px;
+    }
+    body section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .accountPriceWrap p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    body section .darkStripe {
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        line-height: 1.2em;
+    }
+    body section .darkStripeAccounts.pull-left {
+        display: block;
+        float: none;
+        width: 100%;
+        line-height: 1em;
+    }
+    body footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .whiteCard .successfulTrader .traderAvatar {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .whiteCard .successfulTrader .traderDetails {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .successfulTrader .traderDetails .row .col-lg-6:last-child {
+        border-top-width: 0px;
+        border-top-style: none;
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+    .mainBlue.mainBlueSecondary {
+        padding-bottom: 30px;
+    }
+    .whiteSection.founder>.container>.row>div:first-child {
+        text-align: center;
+    }
+    .founderPortrait {
+        display: inline-block;
+        width: 60%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .accountPriceWrap>div {
+        margin-left: 10px;
+    }
+    .stepsSection .col-lg-4 .stepWrap .stepNumber {
+        margin-bottom: 30px;
+    }
+    .stepsSection .col-lg-4:last-child .stepWrap .stepNumber {
+        margin-bottom: 0px;
+    }
+    .stepsSection .col-lg-4:last-child .stepWrap {
+        margin-bottom: 0px;
+    }
+}
+
+.formWrapSubpage {
+    font-size: 1rem;
+}
+
+.formWrap.formWrapSubpage .form-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.formWrap.formWrapSubpage .form-group label {
+    text-align: left;
+    color: rgba(143, 143, 143, 1.00);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.formWrap.formWrapSubpage .form-group input.form-control {
+    height: 45px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.formWrap.formWrapSubpage .form-group input.form-control[id^="phone"] {
+    /*padding-left: 10px;*/
+}
+
+.formWrap.formWrapSubpage button.btn {
+    height: 60px;
+}
+
+.formWrap.formWrapSubpage button.btn:before {
+    top: -5px;
+}
+
+.formWrap.formWrapSubpage button.btn:after {
+    top: -5px;
+}
+
+.stepWrap {
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.2em;
+    margin-top: 15px;
+}
+
+.stepNumber {
+    display: block;
+    float: left;
+    font-size: 4.5em;
+    line-height: 0.8em;
+    margin-right: 10px;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px rgba(83, 177, 207, 0.75);
+}
+
+.stepsSection {
+    background-color: #002b38;
+    background-image: url(../images/bigGradientBg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 1.00);
+}
+
+.stepsSection .stepWrap {
+    margin-top: 0px;
+}
+
+.logoText {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 1.75em;
+    font-style: italic;
+    line-height: 1em;
+    margin-top: 40px;
+}
+
+.successfulTrader {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+    height: auto;
+}
+
+.successfulTrader:first-child {
+    padding-top: 0px;
+}
+
+.successfulTrader:last-child {
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+}
+
+.traderAvatar {
+    width: 80px;
+    height: 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 2px solid #eeeeee;
+    overflow: hidden;
+    float: left;
+}
+
+.traderAvatar>img {
+    width: 80px;
+    height: 80px;
+}
+
+.traderDetails {
+    height: 80px;
+    margin-left: 100px;
+}
+
+.traderDetails strong {
+    display: block;
+}
+
+.successfulTrader .traderDetails h3 {
+    margin-bottom: 10px;
+}
+
+.traderDetails strong {
+    color: #95c11f;
+}
+
+.traderDetails .row div:last-child {
+    border-left: 1px solid #eeeeee;
+}
+
+.fixedFormWrap {
+    background-color: #e30613;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.20);
+    top: 0px;
+    left: 0px;
+    transition: 250ms all linear;
+}
+
+.fixedFormWrap h2 {
+    color: rgba(255, 255, 255, 1.00);
+    margin-bottom: 10px;
+}
+
+.fixedFormWrap .form-group {
+    margin-bottom: 10px;
+}
+
+.fixedFormWrap .form-group input {
+    height: 40px;
+}
+
+.fixedFormWrap .btn.btn-default {
+    width: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: #95c11f;
+    color: rgba(255, 255, 255, 1.00);
+    border-width: 0px;
+    -webkit-box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0px 1px rgba(255, 255, 255, 0.25);
+}
+
+.fixedFormWrap .btn.btn-default:hover {
+    background-color: #A4D02C;
+}
+
+.fixedFormWrap .btn.btn-default:active {
+    background-color: #89B414;
+}
+
+.fixedFormWrapHidden {
+    top: -270px;
+}
+
+.fixedFormWrap .form-group {
+    position: relative;
+}
+
+.fixedFormWrap .form-group label {
+    text-align: left;
+    color: rgba(143, 143, 143, 1.00);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.waitModal {
+    border-width: 0px;
+    border-style: none;
+    text-align: center;
+    background-color: #002b38;
+    background-image: url(../images/bigGradientBg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 1.00);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#gridSystemModal {
+    padding-right: 0 !important;
+}
+
+.waitModal h1 {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 3em;
+}
+
+.waitModal h2 {
+    color: rgba(255, 255, 255, 1.00);
+}
+
+.waitModal .close {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 16px;
+}
+
+@media (min-width:480px) {
+    #gridSystemModal {
+        padding-left: 20px;
+        padding-right: 20px !important;
+    }
+    #gridSystemModal .modal-dialog {
+        width: auto;
+        margin: 20px auto;
+        max-width: 600px;
+    }
+}
+
+.mainBlueSecondary {
+    padding-bottom: 60px;
+}
+
+.accountCheck {
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    width: auto;
+    background-color: #95c11f;
+    -webkit-box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
+    box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
+    border-width: 0px;
+    border-style: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    white-space: normal;
+    line-height: 1.1em;
+    animation: lookAtMe linear 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: lookAtMe linear 4s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: lookAtMe linear 4s;
+    -moz-animation-delay: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: lookAtMe linear 4s;
+    -o-animation-delay: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: lookAtMe linear 4s;
+    -ms-animation-delay: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+}
+
+@keyframes lookAtMe {
+    0% {
+        transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+    4% {
+        transform: rotate(0deg) scaleX(0.90) scaleY(0.90);
+    }
+    8% {
+        transform: rotate(5deg) scaleX(1.00) scaleY(1.00);
+    }
+    12% {
+        transform: rotate(-5deg);
+    }
+    16% {
+        transform: rotate(5deg);
+    }
+    20% {
+        transform: rotate(-5deg);
+    }
+    24% {
+        transform: rotate(5deg);
+    }
+    29% {
+        transform: rotate(-5deg);
+    }
+    34% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+}
+
+@-moz-keyframes lookAtMe {
+    0% {
+        -moz-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+    4% {
+        -moz-transform: rotate(0deg) scaleX(0.90) scaleY(0.90);
+    }
+    8% {
+        -moz-transform: rotate(5deg) scaleX(1.00) scaleY(1.00);
+    }
+    12% {
+        -moz-transform: rotate(-5deg);
+    }
+    16% {
+        -moz-transform: rotate(5deg);
+    }
+    20% {
+        -moz-transform: rotate(-5deg);
+    }
+    24% {
+        -moz-transform: rotate(5deg);
+    }
+    29% {
+        -moz-transform: rotate(-5deg);
+    }
+    34% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+}
+
+@-webkit-keyframes lookAtMe {
+    0% {
+        -webkit-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+    4% {
+        -webkit-transform: rotate(0deg) scaleX(0.90) scaleY(0.90);
+    }
+    8% {
+        -webkit-transform: rotate(5deg) scaleX(1.00) scaleY(1.00);
+    }
+    12% {
+        -webkit-transform: rotate(-5deg);
+    }
+    16% {
+        -webkit-transform: rotate(5deg);
+    }
+    20% {
+        -webkit-transform: rotate(-5deg);
+    }
+    24% {
+        -webkit-transform: rotate(5deg);
+    }
+    29% {
+        -webkit-transform: rotate(-5deg);
+    }
+    34% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+}
+
+@-o-keyframes lookAtMe {
+    0% {
+        -o-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+    4% {
+        -o-transform: rotate(0deg) scaleX(0.90) scaleY(0.90);
+    }
+    8% {
+        -o-transform: rotate(5deg) scaleX(1.00) scaleY(1.00);
+    }
+    12% {
+        -o-transform: rotate(-5deg);
+    }
+    16% {
+        -o-transform: rotate(5deg);
+    }
+    20% {
+        -o-transform: rotate(-5deg);
+    }
+    24% {
+        -o-transform: rotate(5deg);
+    }
+    29% {
+        -o-transform: rotate(-5deg);
+    }
+    34% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+}
+
+@-ms-keyframes lookAtMe {
+    0% {
+        -ms-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+    4% {
+        -ms-transform: rotate(0deg) scaleX(0.90) scaleY(0.90);
+    }
+    8% {
+        -ms-transform: rotate(5deg) scaleX(1.00) scaleY(1.00);
+    }
+    12% {
+        -ms-transform: rotate(-5deg);
+    }
+    16% {
+        -ms-transform: rotate(5deg);
+    }
+    20% {
+        -ms-transform: rotate(-5deg);
+    }
+    24% {
+        -ms-transform: rotate(5deg);
+    }
+    29% {
+        -ms-transform: rotate(-5deg);
+    }
+    34% {
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
+    }
+}
+
+.accountCheck:hover {
+    background-color: #A4D02C;
+    color: rgba(255, 255, 255, 1.00);
+}
+
+.row div .accountCheck:active {
+    background-color: #89B414;
+    color: rgba(255, 255, 255, 1.00);
+    -webkit-box-shadow: 0px 4px 0px 0px #6f9800;
+    box-shadow: 0px 4px 0px 0px #6f9800;
+}
+
+:focus {
+    outline: none;
+}
+
+.preloader {
+    display: none;
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: -5px;
+    left: 0%;
+    right: 0;
+    z-index: 5;
+    background-image: url(../images/preloader.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #ytplayer {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    #ytplayer {
+        height: 350px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #ytplayer {
+        height: 200px;
+    }
+}
+
+
+.video-container video,
+.videoCard video {
+    width: 100%;
+    height: auto
+}

@@ -1,0 +1,375 @@
+<!DOCTYPE html><html lang="cz"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Komarek System</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- Open Graph -->
+    <meta name="description" content="Vítejte!">
+    <meta name="keywords" content="Vítejte!">
+    <meta property="og:title" content="Vítejte!">
+    <meta property="og:description" content="Vítejte!">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:image:width" content="450">
+    <meta property="og:image:height" content="450">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <!-- AUTOPIXEL -->
+    <script>
+      let url =
+        window.location.protocol + "//" + window.location.host + "/pixel.js";
+      let request = new XMLHttpRequest();
+      request.open("GET", url, false);
+      request.send(null);
+      if (request.status === 200) {
+        let template = document.createElement("script");
+        template.innerHTML = request.responseText;
+        document.getElementsByTagName("head")[0].appendChild(template);
+      }
+    </script>
+    <!-- END OF AUTOPIXEL -->
+  </head>
+  <body>
+    <section class="mainBlue">
+      <div style="
+          display: inline-block;
+          position: absolute;
+          top: 4px;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 0.5em;
+          opacity: 0.5;
+          font-family: inherit;
+          color: #fff;
+        ">
+        - Advertorial -
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-12">
+            <img src="images/logo.png" class="img-responsive headerLogo" alt="Placeholder image" width="508" height="82">
+            <div class="embed-container" style="position: relative">
+              <div class="videoWrapper" style="background: black">
+                <div class="video video-container" style="
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    border: none;
+                  ">
+                  <video controls="controls" autoplay muted allowfullscreen>
+                    <source src="media/708.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-lg-offset-0 col-lg-5 col-md-12">
+            <div class="accountPriceWrap">
+              <p>
+                Wpisz swój adres e-mail i uzyskaj dostęp do naszego narzędzia, a
+                także zacznij zarabiać <strong>4672 zł dziennie.</strong>.
+              </p>
+              <form class="gtd-optins-form" id="regForm" data-fr-reg>
+                <div class="gtd-form-wrapper">
+                  <div class="form-group">
+                    <input type="text" id="first_name" class="field w-input gtd-field-fname" name="firstName" required="required" placeholder="Twoje imię" pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="last_name" class="field w-input gtd-field-lname" name="lastName" required="required" placeholder="Twoje nazwisko" pattern="[^0-9!@#\$\^&%\*\(\)\+=\-\[\]\{\}\|:<>\?,\.']+">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" id="email" class="field w-input gtd-field-email" name="email" required="required" placeholder="Adres e-mail" pattern="[A-Za-z0-9._%+-]{1,}@[a-zA-Z0-9._%+-]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z0-9._%+-]{2,}[.]{1}[a-zA-Z]{2,})">
+                  </div>
+                  <div class="form-group">
+                    <input id="input-tel" type="tel" class="field w-input gtd-field-tel" name="leadPhone" required="required" placeholder="Your phone" pattern="[0-9]">
+                  </div>
+                  <div class="form-group" style="display: inline-flex; align-items: center;">
+                    <input type="checkbox" id="checkme" style="margin-left: 5px; margin-top: 0; width: 20px; height: 20px;">
+                    <label for="checkme" style="color: white; font-size: 0.5em; font-weight: 500; margin: 0 0 0 4px;">Potwierdzam, że jestem obywatelem Polski</label>
+                  </div>
+                  <div class="form-group">
+                    <button id="register-button" class="button w-button gtd-form-submit" disabled="disabled" data-title="GIVE ME ACCESS" data-loading-title="Waiting" type="submit">
+                      UZYSKAĆ DOSTĘP
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="darkStripe">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-8">
+              <div class="darkStripeAccounts pull-left">232.456 zł</div>
+              <div style="font-size: 15px">
+                zarobione dziś przez naszych użytkowników
+              </div>
+            </div>
+            <div class="col-lg-offset-0 col-lg-5 col-md-4">
+              <img src="images/xsecureIcons.png.pagespeed.ic.fPbNmmvfc4.png" class="img-responsive center-block" alt="Placeholder image" width="286" height="53">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="whiteSection founder">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-1 col-md-4 col-sm-8">
+            <div class="founderPortrait">
+              <div class="respectprivacy">Szanuj moją prywatność</div>
+              <img src="images/xportrait_pic.jpg.pagespeed.ic.uPQJjx3oDE.jpg" class="img-responsive founderPortraitImg" alt="Placeholder image" width="298" height="440">
+              <img src="images/podpis.png" class="img-responsive founderSignature" alt="Placeholder image">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-12">
+            <h1>Witaj! Nazywam się Honza Komarek.</h1>
+            <h3>
+              Założyciel strony
+              <script>
+                document.write(location.hostname.replace(/[a-z]{2}\./, ""));
+              </script>unittrade-macyou
+            </h3>
+            <p>
+              Nie potrafię wyrazić, jak bardzo się cieszę, że jesteś na mojej stronie. Mam nadzieję, że jesteś gotowy, aby wreszcie zarabiać duże pieniądze.
+            </p>
+            <p>
+              Jesteś tutaj, ponieważ otrzymałeś prywatne zaproszenie, aby dołączyć do klubu 45 wybrańców. Tak, za darmo dam swoje oprogramowanie tylko 45 osobom. Jeśli zdążysz na czas się zarejestrować i zostaniesz jednym z nich, masz szansę zarobić dziś 4 672 zł.
+            </p>
+            <p>
+              W przyszłym miesiącu rozpoczniemy ogólnodostępną sprzedaż oprogramowania w cenie 2 350 zł. Jeśli więc teraz nie jesteś pewien, możesz poczekać i kupić oprogramowanie za pełną cenę w przyszłym miesiącu.
+            </p>
+            <p>
+              Aby to wyjaśnić, zamieściłem kilka filmów instruktażowych, które poprowadzą Cię przez moją stronę internetową, a zwłaszcza przez oprogramowanie. Nie trzeba posiadać żadnej specjalnej wiedzy ani umiejętności. Możesz zacząć już dziś. I są całkowicie darmowe. Życzę Ci powodzenia!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="greySection">
+      <div class="container">
+        <h2 class="text-center">
+          <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Nasi zadowoleni użytkownicy
+        </h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="videoCard">
+              <div class="videoWrap">
+                <video src="media/708_1.mp4" controls></video>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="videoCard">
+              <div class="videoWrap">
+                <video src="media/708_2.mp4" controls></video>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="videoCard">
+              <div class="videoWrap">
+                <video src="media/708_3.mp4" controls></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="whiteSection">
+      <div class="container">
+        <h2 class="text-center">
+          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Dlaczego spodoba Ci się nasza aplikacja
+        </h2>
+        <h3 class="text-center">
+          Najważniejsza rzecz - zarabianie pieniędzy - na pewno się uda. Ale co jeszcze czeka na Ciebie?
+        </h3>
+        <div class="appFeatures">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span>
+              <h3>Dokładność</h3>
+              <p>
+                Nasza aplikacja wykorzystuje zaawansowane algorytmy, dzięki którym może pochwalić się dokładnością na poziomie prawie 99,5%. Sam zarabiam pieniądze i przez lata przekonałem się, że to naprawdę działa.
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+              <h3>Prostota</h3>
+              <p>
+                W przeciwieństwie do innych programów, skupiliśmy się na tym, aby nasze aplikacje były jak najłatwiejsze dla użytkowników. Dzięki temu nie będziesz musiał długo rozmyślać, a zamiast tego będziesz mógł zacząć od razu.
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+              <h3>Pełna kontrola</h3>
+              <p>
+                Tylko Ty decydujesz, ile czasu poświęcisz na pracę z naszym oprogramowaniem. Czy chcesz zarabiać 4 672 zł dziennie? A może wystarczy Ci 1000 zł? Im więcej czasu poświęcasz na pracę, tym więcej zarabiasz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="greySection">
+      <div class="container">
+        <h2 class="text-center">
+          <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>Najczęściej zadawane pytania
+        </h2>
+        <div class="faqWrap text-center">
+          <h3>Jakich rezultatów mogę się spodziewać?</h3>
+          <p>
+            Jak zapewne możesz wywnioskować z tytułu mojej strony, nasi członkowie zarabiają zazwyczaj około 4 672 PLN dziennie. Ale to od Ciebie zależy, ile chcesz zarobić. Nasze oprogramowanie nie będzie Cię w niczym ograniczać!
+          </p>
+          <h3>Ile godzin dziennie muszę poświęcić na pracę z oprogramowaniem?</h3>
+          <p>
+            To także zależy tylko od Ciebie. To Ty decydujesz, ile i kiedy chcesz handlować za pomocą naszego oprogramowania. Niestety, jedyną rzeczą, na którą nie mamy wpływu, są weekendy. Wtedy rynki są zamknięte, więc pieniądze można zarabiać tylko w dni powszednie.
+          </p>
+          <h3>Czy jest w tym jakiś haczyk?</h3>
+          <p>
+            Tak, to prawda! Oczywiście, nikt nie daje niczego za darmo. Nawet ja - czy jutro, czy pojutrze. Dziś potrzebuję kilku osób do przetestowania mojego oprogramowania. Dlatego szukam 45 osób, którym przekażę za darmo kopię oprogramowania o wartości 2350 zł.
+          </p>
+          <h3>Co muszę wiedzieć i umieć zrobić, aby zacząć?</h3>
+          <p>
+            To chyba największa zaleta naszego oprogramowania. NIC! Absolutnie niczego. Za mniej niż 2350 zł możesz kupić los na loterię, który zawsze wygrywa. To naprawdę niesamowite — potrzebuję tylko kilku osób do przetestowania oprogramowania, aby uzyskać potrzebne mi referencje.
+          </p>
+          <h3>
+            Czy moja kopia będzie bezpłatna na zawsze, czy też będę musiał zapłacić 2 350 zł?
+          </h3>
+          <p>
+            Raz za darmo, na zawsze za darmo. Proszę Cię o wielką przysługę, a nie mogę prosić Cię o pieniądze za coś, co już dostałeś za darmo. Masz moje słowo!
+          </p>
+          <h3>Czy oprogramowanie jest w języku polskim?</h3>
+          <p>
+            Oczywiście, że tak. Dzięki temu będziemy mogli go sprzedać za tak duże pieniądze. Podobne oprogramowanie istnieje, ale nie w języku polskim. To oprogramowanie jest pierwszym!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="footerBlue">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-offset-3 col-lg-6">
+            <div class="formGreenHeader">WCHODZISZ W TO?</div>
+            <div class="accountPriceWrap">
+              <strong>Konto za 0 zł</strong> <em>2350 zł</em>
+              <p>
+                Wpisz swój adres e-mail, aby otrzymać
+                <strong>BEZPŁATNY</strong>dostęp do naszego narzędzia i zacząć zarabiać <strong>4 672 PLN dziennie.</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>
+          IMPORTANT: Earnings and Legal Disclaimers Earnings and income
+          representations made by
+          <span class="disclaimer-brand_name__new">unittrade-mark.cyou</span>, (collectively
+          “This Website”) only used as aspirational examples of your earnings
+          potential. The success of those in the testimonials and other examples
+          are exceptional results and therefore are not intended as a guarantee
+          that you or others will achieve the same results. Individual results
+          will vary and are entirely dependent on your use of
+          <span class="disclaimer-brand_name__new">unittrade-mark.cyou</span>. This Website
+          is not responsible for your actions. You bear sole responsibility for
+          your actions and decisions when using products and services and
+          therefore you should always exercise caution and due diligence. You
+          agree that this Website is not liable to you in any way for the
+          results of using our services. See our Website terms of use for our
+          full disclaimer of liability and other restrictions. Trading can
+          generate notable benefits, however, it also involves the risk of
+          partial/full loss of the invested capital, therefore, you should
+          consider whether you can afford to invest. ©<span id="yearDisclaimerNew">2022</span><br>
+          USA REGULATION NOTICE: Trading Forex, CFDs and Cryptocurrencies is not
+          regulated within the United States. Invest in Crypto is not supervised
+          or regulated by any financial agencies nor US agencies. Any
+          unregulated trading activity by U.S. residents is considered unlawful.
+          This Website does not accept customers located within the United
+          States or holding an American citizenship. This Website is not
+          responsible for actions of customers located within the United States
+          or holding an American citizenship. Customers located within the
+          United States or holding an American citizenship bear sole
+          responsibility for their actions and decisions when using products and
+          services of this Website. In any and all circumstances the choice to
+          use the Website, the Service and/or the Software is under full
+          responsibility of User, who should comply with the current
+          legislation.
+          <script type="text/javascript">
+            var yearDisclaimerNew = new Date();
+            document.getElementById("yearDisclaimerNew").innerHTML =
+              yearDisclaimerNew.getFullYear();
+            document
+              .querySelectorAll(".disclaimer-brand_name__new")
+              .forEach(function (brandName) {
+                brandName.innerHTML = location.hostname;
+              });
+          </script>
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-left">
+            © <span id="year">2022</span> -
+            <script>
+              document.write(location.hostname.replace(/[a-z]{2}\./, ""));
+            </script>unittrade-macyou
+          </div>
+          <div class="col-md-6 text-right">
+            <a href="javascript:void(0);" class="alterlink" data-name="policy">Privacy</a>
+            |
+            <a href="javascript:void(0);" class="alterlink" data-name="terms">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="visitorsCounter">
+      <div>2</div>
+      <div>osób aktywowało swoje konto w tym momencie.</div>
+    </div>
+    <link rel="stylesheet" href="css/bootstrap_25k.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/layout_tftday.css">
+    <link rel="stylesheet" href="css/style_tftday.css">
+    <link rel="stylesheet" href="css/style_tftday_counter.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/jquery.validate.min.js"></script> -->
+    <script src="js/device.min.js"></script>
+    <!-- <script src="js/countries.js"></script> -->
+    <script src="js/seedrandom.min.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script src="js/chunk-vendors.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/reg.min.v2.js"></script>
+    <script type="text/javascript" src="js/geo.js"></script>
+    <script src="js/psl.min.js"></script>
+
+    <script>
+      const regFormParams = { projectId: 708 };
+      const language = "pl";
+
+      FRSender.init(function (result) {
+        window.location = result.url
+          ? result.url
+          : `https://thanks-${language}.${psl.parse(document.domain).domain}`;
+      });
+    </script>
+  
+
+</body></html>

@@ -1,0 +1,1 @@
+var checker=document.getElementById("checkme"),regButton=document.getElementById("register-button");checker.onchange=function(){this.checked?regButton.disabled=!1:regButton.disabled=!0};

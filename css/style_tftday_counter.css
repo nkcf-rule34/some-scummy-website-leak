@@ -1,0 +1,132 @@
+@media (max-width: 1199px) {
+    #visitorsCounter {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    #visitorsCounter {
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        text-align: center;
+        max-width: 210px;
+        font-size: 14px;
+        z-index: 10;
+    }
+    #visitorsCounter> :first-child {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+        background: #95C11F;
+        border-radius: 3px 3px 0 0;
+        display: inline-block;
+        padding: 10px 30px;
+        color: white;
+        position: relative;
+        animation: counterAnimation linear 1s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        -webkit-animation: counterAnimation linear 1s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-transform-origin: 50% 50%;
+        -moz-animation: counterAnimation linear 1s;
+        -moz-animation-iteration-count: infinite;
+        -moz-transform-origin: 50% 50%;
+        -o-animation: counterAnimation linear 1s;
+        -o-animation-iteration-count: infinite;
+        -o-transform-origin: 50% 50%;
+        -ms-animation: counterAnimation linear 1s;
+        -ms-animation-iteration-count: infinite;
+        -ms-transform-origin: 50% 50%;
+    }
+    #visitorsCounter> :first-child:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 20px 0 20px;
+        border-color: #96c11f transparent transparent transparent;
+    }
+    #visitorsCounter> :last-child {
+        padding: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        color: #666666;
+        background: white;
+        font-size: 1em;
+    }
+    #visitorsCounter> :last-child a {
+        color: #95C11F;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    #visitorsCounter> :last-child a:hover {
+        text-decoration: none;
+    }
+}
+
+@keyframes counterAnimation {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    51% {
+        transform: translate(0px, -10px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@-moz-keyframes counterAnimation {
+    0% {
+        -moz-transform: translate(0px, 0px);
+    }
+    51% {
+        -moz-transform: translate(0px, -10px);
+    }
+    100% {
+        -moz-transform: translate(0px, 0px);
+    }
+}
+
+@-webkit-keyframes counterAnimation {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+    }
+    51% {
+        -webkit-transform: translate(0px, -10px);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+
+@-o-keyframes counterAnimation {
+    0% {
+        -o-transform: translate(0px, 0px);
+    }
+    51% {
+        -o-transform: translate(0px, -10px);
+    }
+    100% {
+        -o-transform: translate(0px, 0px);
+    }
+}
+
+@-ms-keyframes counterAnimation {
+    0% {
+        -ms-transform: translate(0px, 0px);
+    }
+    51% {
+        -ms-transform: translate(0px, -10px);
+    }
+    100% {
+        -ms-transform: translate(0px, 0px);
+    }
+}

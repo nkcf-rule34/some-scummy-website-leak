@@ -1,0 +1,267 @@
+.intl-tel-input {
+    width: 100% !important;
+    height: 40px !important;
+  }
+
+.steps {
+    padding-left: 0;
+    list-style: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    margin: 30px auto;
+    border-radius: 3px;
+}
+
+.steps strong {
+    font-size: 14px;
+    display: block;
+    line-height: 1.4;
+}
+
+.steps>li {
+    position: relative;
+    display: block;
+    /* border: 1px solid #ddd; */
+    padding: 12px 50px 8px 50px;
+    width: 140px;
+    height: 40px;
+}
+
+@media (min-width: 768px) {
+    .steps>li {
+        float: left;
+    }
+    .steps .past {
+        color: #666;
+        background: #ececec;
+    }
+    .steps .present {
+        color: #000;
+    }
+    .steps .future {
+        color: #777;
+        background: #efefef;
+    }
+    .steps li>span:after,
+    .steps li>span:before {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid transparent;
+        border-left-color: #f0f0f0;
+        border-width: 30px;
+    }
+    .steps li>span:after {
+        top: -5px;
+        z-index: 1;
+        border-left-color: white;
+        border-width: 34px;
+    }
+    .steps li>span:before {
+        z-index: 2;
+    }
+    .steps li.past+li>span:before {
+        border-left-color: #ececec;
+    }
+    .steps li.present+li>span:before {
+        border-left-color: #fff;
+    }
+    .steps li.future+li>span:before {
+        border-left-color: #efefef;
+    }
+    .steps li:first-child>span:after,
+    .steps li:first-child>span:before {
+        display: none;
+    }
+    /* Arrows at start and end */
+    .steps li:first-child i,
+    .steps li:last-child i {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid transparent;
+        border-left-color: white;
+        border-width: 30px;
+    }
+    .steps li:last-child i {
+        left: auto;
+        right: -30px;
+        border-left-color: transparent;
+        border-top-color: white;
+        border-bottom-color: white;
+    }
+}
+
+
+label.error {
+    display: block;
+    background: red;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-weight: 700;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.progbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+.progbar ul li.active {
+    background-color: #A4D02C;
+    color: #ffffff;
+    border-color: #ef950d;
+    text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.35);
+}
+
+.progbar ul li {
+    display: inline-block;
+    padding: 7px;
+    width: 45px;
+    height: 45px;
+    margin: 0 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #efefef;
+    color: black;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+li:nth-child(-n+1)::after {
+    content: "";
+    width: 60px;
+    border: 1px solid white;
+    height: 1px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 45px;
+}
+
+li.completed::after {
+    border: 1px solid #A4D02C;
+}
+
+li.country {
+    font-size: 15px;
+    color: black;
+}
+
+#form1 .button,
+#form2 .button,
+#form_popup .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.selected-dial-code {
+    color: #686868;
+}
+
+.accountPriceWrap form .input-wrap {
+    margin: 0 0 15px 0 !important;
+}
+.vue-tel-input{
+    border: none !important;
+}
+.checkbox-wrap{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+input[type="radio"], input[type="checkbox"]{
+    margin-top: 0 !important;
+}
+.accountPriceWrap .input-wrap input {
+    height: 50px;
+    color: #686868;
+    font-size: 0.7em;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 0px 0px 4px 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-family: inherit;
+}
+.accountPriceWrap .input-wrap .vue-tel-input .vti__dropdown {
+    background-color: rgba(0,0,0,.05);
+}
+
+.accountPriceWrap .input-wrap .vue-tel-input .vti__dropdown .vti__country-code {
+    color: #FFF
+}
+
+.accountPriceWrap .input-wrap .vue-tel-input .vti__dropdown .vti__dropdown-item {
+    color: #333;
+    font-weight: 500;
+    font-size: 16px!important
+}
+.accountPriceWrap .input-wrap button {
+    margin-top: 15px;
+    border-radius: 4px;
+    height: 70px;
+    background-color: #95c11f;
+    -webkit-box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgb(255 255 255 / 15%) inset;
+    box-shadow: 0px 4px 0px 0px #6f9800, 0 1px 0 0 rgb(255 255 255 / 15%) inset;
+    border-width: 0px;
+    border-style: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    white-space: normal;
+    line-height: 1.1em;
+}
+.accountPriceWrap .input-wrap button::before {
+    width: 0;
+    height: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 35px 0 35px 20px;
+    border-color: transparent transparent transparent #ffec15;
+}
+.accountPriceWrap .input-wrap button::after {
+    width: 0;
+    height: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 35px 20px 35px 0;
+    border-color: transparent #ffec15 transparent transparent;
+}
